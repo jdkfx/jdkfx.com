@@ -11,8 +11,8 @@
 	<h1>Blog</h1>
 
 	<ul>
-		{#each data.summaries as { slug, title }}
-			<li><a href="/blog/{slug}">{title}</a></li>
+		{#each data.summaries as { slug, title, date }}
+			<li><a href="/blog/{slug}">{title}</a> - <p>{date}</p></li>
 		{/each}
 	</ul>
 </div>
