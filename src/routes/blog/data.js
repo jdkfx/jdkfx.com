@@ -21,7 +21,7 @@ try {
 			date: content.attributes.date,
 			content: marked(content.body),
 		};
-		console.log(post);
+		// console.log(post);
 		posts.push(post);
 	}
 } catch (err) {
