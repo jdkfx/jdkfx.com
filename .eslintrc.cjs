@@ -1,7 +1,12 @@
 module.exports = {
 	root: true,
-	extends: ['eslint:recommended', 'plugin:svelte/recommended', "plugin:tailwindcss/recommended", 'prettier'],
-	plugins: "tailwindcss",
+	extends: [
+		'eslint:recommended',
+		'plugin:svelte/recommended',
+		'plugin:tailwindcss/recommended',
+		'prettier'
+	],
+	plugins: 'tailwindcss',
 	parserOptions: {
 		sourceType: 'module',
 		ecmaVersion: 2020,

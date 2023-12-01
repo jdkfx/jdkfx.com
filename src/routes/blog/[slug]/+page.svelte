@@ -11,7 +11,7 @@
 <div>{@html data.post.content}</div>
 
 <TwitterShareButton
-	text="{data.post.title}"
+	text={data.post.title}
 	url="https://jdkfx.com/blog/{data.post.slug}"
 	hashtags="jdkfx_blog"
 />
