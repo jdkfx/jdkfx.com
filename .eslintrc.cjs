@@ -6,7 +6,7 @@ module.exports = {
 		'plugin:tailwindcss/recommended',
 		'prettier'
 	],
-	plugins: 'tailwindcss',
+	plugins: ['tailwindcss'],
 	parserOptions: {
 		sourceType: 'module',
 		ecmaVersion: 2020,
