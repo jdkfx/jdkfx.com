@@ -6,20 +6,20 @@ import { marked } from 'marked';
 const posts = [];
 
 try {
-	const articleDir = path.join(process.cwd(), "/articles");
+	const articleDir = path.join(process.cwd(), '/articles');
 	const fileList = fs.readdirSync(articleDir);
 	for (const fileName of fileList) {
-		if (fileName.length < 4 || fileName.slice(-3) !== ".md") continue;
+		if (fileName.length < 4 || fileName.slice(-3) !== '.md') continue;
 		const filePath = path.join(articleDir, fileName);
 		const stats = fs.statSync(filePath);
 		if (!stats.isFile()) continue;
-		const file = fs.readFileSync(filePath, "utf-8");
+		const file = fs.readFileSync(filePath, 'utf-8');
 		const content = fm(file);
 		const post = {
 			slug: fileName.slice(0, -3),
 			title: content.attributes.title,
 			date: content.attributes.date,
-			content: marked(content.body),
+			content: marked(content.body)
 		};
 		// console.log(post);
 		posts.push(post);
@@ -28,8 +28,8 @@ try {
 	console.error(err);
 }
 
-posts.sort((a,b)=>{
-	return a.date === b.date ? 0 : (a.date < b.date ? 1 : -1);
+posts.sort((a, b) => {
+	return a.date === b.date ? 0 : a.date < b.date ? 1 : -1;
 });
 
 export default posts;
