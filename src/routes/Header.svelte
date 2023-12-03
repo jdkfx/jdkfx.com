@@ -25,6 +25,9 @@
 				<ul
 					class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
 				>
+					<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+						<a class="btn btn-ghost text-xl" href="/">Home</a>
+					</li>
 					<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 						<a class="btn btn-ghost text-xl" href="/about">About</a>
 					</li>
