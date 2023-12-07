@@ -1,5 +1,4 @@
 <script>
-	import '$lib/HistoryMiddle.svelte';
 	import HistoryContents from './HistoryContents.svelte';
 </script>
 

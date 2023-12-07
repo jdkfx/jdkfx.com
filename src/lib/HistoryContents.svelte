@@ -1,5 +1,5 @@
 <script lang="ts">
-	import HistoryMiddle from './HistoryMiddle.svelte';
+	import historyMiddle from '$lib/images/history-middle.svg';
 	import { histories } from '../routes/about/history-data';
 </script>
 
@@ -8,7 +8,9 @@
 		{#if i % 2 === 0}
 			<li>
 				<hr />
-				<HistoryMiddle />
+				<div class="timeline-middle">
+					<img src={historyMiddle} alt="History Middle Icon" />
+				</div>
 				<div class="timeline-start md:text-end">
 					<time class="font-mono italic">{histories[i].date}</time>
 					<div class="text-lg font-black">{histories[i].company}</div>
@@ -19,7 +21,9 @@
 		{:else}
 			<li>
 				<hr />
-				<HistoryMiddle />
+				<div class="timeline-middle">
+					<img src={historyMiddle} alt="History Middle Icon" />
+				</div>
 				<div class="timeline-end">
 					<time class="font-mono italic">{histories[i].date}</time>
 					<div class="text-lg font-black">{histories[i].company}</div>
