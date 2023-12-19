@@ -1,5 +1,6 @@
 <script>
 	import Header from './Header.svelte';
+	import happyBusy from '$lib/images/happy-busy.png';
 	import './styles.css';
 	import '../app.css';
 </script>
@@ -12,7 +13,9 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<a href="https://sites.google.com/view/happy-busy/" target="_blank">
+			<img src={happyBusy} alt="時間がありません。助けてください。" />
+		</a>
 	</footer>
 </div>
 
