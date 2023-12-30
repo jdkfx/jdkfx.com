@@ -1,6 +1,7 @@
 <script>
 	import '$lib/History.svelte';
 	import History from '$lib/History.svelte';
+	import Skill from '$lib/Skill.svelte';
 </script>
 
 <svelte:head>
@@ -9,8 +10,11 @@
 </svelte:head>
 
 <div class="text-column">
+	<div class="my-10">
+		<h1 class="text-5xl font-bold">About Me</h1>
+	</div>
 	<History />
-	<h1>Skill</h1>
+	<Skill />
 	<h1>Products</h1>
 	<h1>OSS Contribution</h1>
 	<h1>Contest</h1>
