@@ -18,14 +18,14 @@
 			<p class="text-2xl text-center font-semibold">スキル</p>
 		</div>
 		<div class="grid md:grid-cols-8 md:gap-8 grid-cols-6 gap-6">
-			<img src={HtmlLogo} alt="HTML Logo">
-			<img src={CssLogo} alt="CSS Logo">
-			<img src={PhpLogo} alt="PHP Logo">
-			<img src={MysqlLogo} alt="MySQL Logo">
-			<img src={LaravelLogo} alt="Laravel Logo">
-			<img src={DockerLogo} alt="Docker Logo">
-			<img src={VueLogo} alt="Vue Logo">
-			<img src={SvelteLogo} alt="Svelte Logo">
+			<img src={HtmlLogo} alt="HTML Logo" />
+			<img src={CssLogo} alt="CSS Logo" />
+			<img src={PhpLogo} alt="PHP Logo" />
+			<img src={MysqlLogo} alt="MySQL Logo" />
+			<img src={LaravelLogo} alt="Laravel Logo" />
+			<img src={DockerLogo} alt="Docker Logo" />
+			<img src={VueLogo} alt="Vue Logo" />
+			<img src={SvelteLogo} alt="Svelte Logo" />
 		</div>
 	</div>
 </div>
