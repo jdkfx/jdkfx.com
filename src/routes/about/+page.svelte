@@ -2,7 +2,8 @@
 	import '$lib/History.svelte';
 	import History from '$lib/History.svelte';
 	import Skill from '$lib/Skill.svelte';
-	import Products from 'components-lib/Products.svelte';
+	import Products from '$lib/Products.svelte';
+	import OssContribution from '$lib/OssContribution.svelte';
 </script>
 
 <svelte:head>
@@ -17,7 +18,7 @@
 	<History />
 	<Skill />
 	<Products />
-	<h1>OSS Contribution</h1>
+	<OssContribution />
 	<h1>Contest</h1>
 	<h1>Presentation</h1>
 </div>
