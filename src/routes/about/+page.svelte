@@ -1,10 +1,9 @@
 <script>
-	import '$lib/History.svelte';
-	import History from '$lib/History.svelte';
-	import Skill from '$lib/Skill.svelte';
-	import Products from '$lib/Products.svelte';
-	import OssContribution from '$lib/OssContribution.svelte';
-	import Contest from '$lib/Contest.svelte';
+	import History from '$lib/History/History.svelte';
+	import Skill from '$lib/Skill/Skill.svelte';
+	import Products from '$lib/Products/Products.svelte';
+	import OssContribution from '$lib/OssContribution/OssContribution.svelte';
+	import Contest from '$lib/Contest/Contest.svelte';
 </script>
 
 <svelte:head>

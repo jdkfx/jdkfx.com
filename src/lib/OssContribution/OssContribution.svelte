@@ -1,5 +1,5 @@
 <script>
-	import MergeIcon from '$lib/images/merge.svg';
+	import MergeIcon from '$lib/images/icon/merge.svg';
 </script>
 
 <div>

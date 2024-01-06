@@ -1,6 +1,6 @@
 <script lang="ts">
-	import historyMiddle from '$lib/images/history-middle.svg';
-	import { histories } from '../routes/about/history-data';
+	import historyMiddle from '$lib/images/icon/history-middle.svg';
+	import { histories } from '../../routes/about/history-data';
 </script>
 
 <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
