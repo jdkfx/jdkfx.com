@@ -4,6 +4,7 @@
 	import Skill from '$lib/Skill.svelte';
 	import Products from '$lib/Products.svelte';
 	import OssContribution from '$lib/OssContribution.svelte';
+	import Contest from '$lib/Contest.svelte';
 </script>
 
 <svelte:head>
@@ -19,6 +20,6 @@
 	<Skill />
 	<Products />
 	<OssContribution />
-	<h1>Contest</h1>
+	<Contest />
 	<h1>Presentation</h1>
 </div>
