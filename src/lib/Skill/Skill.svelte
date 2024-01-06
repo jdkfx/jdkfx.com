@@ -1,12 +1,12 @@
 <script>
-	import HtmlLogo from '$lib/images/html-logo.svg';
-	import CssLogo from '$lib/images/css-logo.svg';
-	import PhpLogo from '$lib/images/php-logo.svg';
-	import MysqlLogo from '$lib/images/mysql-logo.svg';
-	import LaravelLogo from '$lib/images/laravel-logo.svg';
-	import DockerLogo from '$lib/images/docker-logo.svg';
-	import VueLogo from '$lib/images/vue-logo.svg';
-	import SvelteLogo from '$lib/images/svelte-logo.svg';
+	import HtmlLogo from '$lib/images/logo/html-logo.svg';
+	import CssLogo from '$lib/images/logo/css-logo.svg';
+	import PhpLogo from '$lib/images/logo/php-logo.svg';
+	import MysqlLogo from '$lib/images/logo/mysql-logo.svg';
+	import LaravelLogo from '$lib/images/logo/laravel-logo.svg';
+	import DockerLogo from '$lib/images/logo/docker-logo.svg';
+	import VueLogo from '$lib/images/logo/vue-logo.svg';
+	import SvelteLogo from '$lib/images/logo/svelte-logo.svg';
 </script>
 
 <div>

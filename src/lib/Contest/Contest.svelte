@@ -1,5 +1,5 @@
 <script>
-	import MedalRibbonsStarIcon from '$lib/images/medal-ribbons-star.svg';
+	import MedalRibbonsStarIcon from '$lib/images/icon/medal-ribbons-star.svg';
 </script>
 
 <div>
